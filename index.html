@@ -4,50 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        body
-        {
-            color:#336699;
-            background-color: rgba(112, 129, 87, 0.411);
-            font-family: monospace;
-        }
-        p
-        {
-            font-size: large;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-    <table>
-        <tr>
-            <td><img src="image/2673761.jpg" alt="Avatar" style="height: 250px;" class="img"><h1>Name: Tan Chu Sheng</h1><br></td>    
-        </tr>
-                <tr>
-                    <td>
-                        <h1><i class="material-icons">&#xe0ba;</i> <i>Contact Info</i></h1>
+    <div class="container">
+        <div class="left">
+                <img src="image/2673761.jpg" alt="Avatar" height="250px">
+                <div class="proftext">
+                <h1 class="myname">Tan Chu Sheng</h1><hr><br>
+                </div>
+                <table>
+                    <tr>
+                        <h1><i class="material-icons">&#xe0ba;</i> <i>Contact Info</i><br><br></h1>
                         <ul>
                         <li><i class="fa fa-mobile" aria-hidden="true"></i> +601123143703</li><br>
                         <li><i class="fa fa-envelope" aria-hidden="true"></i> hobbytan123@gmail.com</li>
-                        </ul>
-                        <br><h1><i class="fa fa-graduation-cap" aria-hidden="true"></i> <i>Education</i></h1>
+                        </ul></tr>
+                </table>
+                <br><hr>
+                <table>
+                    <div class="education">
+                        <tr>
+                        <br><br><h1><i class="fa fa-graduation-cap" aria-hidden="true"></i><i>Education</i></h1><br>
                         <ul>
                         <p>2008-2014 Primary</p>
-                        <li><p><a href="http://www.multibyte.my/chpujut/jian_jie.php"><img src="image/logo_sek.png" style="height: 25px;"></a> SJK (C) Chung Hua Pujut</p></li><br>
+                        <li><p class="schoolname"><a href="http://www.multibyte.my/chpujut/jian_jie.php"><img class="schoologo" src="image/logo_sek.png"></a> SJK (C) Chung Hua Pujut</p></li><br>
                         <p>2015-2021 Secondary</p>
-                        <li><p><a href="https://smkstcolumbamiri2.gbs2u.com/"><img src="image/SMK_St._Columba_badge.png" style="height: 25px;"></a> ST. Columba's National</p></li><br>
+                        <li><p class="schoolname"><a href="https://smkstcolumbamiri2.gbs2u.com/"><img class="schoologo" src="image/SMK_St._Columba_badge.png"></a> ST. Columba's National</p></li><br>
                         <p>2021-2025 Tertiary</p>
-                        <li><p><a href="https://www.psdc.org.my/"><img src="image/download.png" style="height: 35px;"></a> Penang Skill Development Center</p></li><br>
-                        </ul>
-                    </td>
-                </tr> 
-    </table>
-    <h1 style="font-size: x-large;">About Me</h1>
-        <p>My name is Tan Chu Sheng, I am 21 years old and I am currently pursuing a diploma in Computer Engineering at PSDC 
-            (<a href="https://www.psdc.org.my/">Penang Skills Development Centre</a>).  My passion for technology and problem 
-            solving has led me to this exciting field where I am constantly learning and applying my skills to real world challenges.</p><br>
-            <form action="comment.html">  
-            <label style="font-size: 15px;" for="cmmtpage">Click here to go <input style="font-size: 20px;font-family: monospace;color: #336699;" type="submit" value="💬Feedback"> page</label>
-        </form>
+                        <li><p class="schoolname"><a href="https://www.psdc.org.my/"><img class="schoologo" src="image/download.png"></a> Penang Skill Development Center</p></li><br>
+                        </ul></td>
+                        </tr>
+                    </div>
+                </table>
+        </div>
+        <div class="right">
+            <h1>About Me</h1>
+            <p>My name is Tan Chu Sheng, I am 21 years old and I am currently pursuing a diploma in Computer Engineering at PSDC 
+                (<a href="https://www.psdc.org.my/">Penang Skills Development Centre</a>).  <br>My passion for technology and problem 
+                solving has led me to this exciting field where I am constantly learning and applying my skills to real world challenges. 
+                <br><br>As a Computer Engineering student, I am excited to have the opportunity to delve into the intricacies of hardware and software to build a solid foundation for my future endeavours. 
+                Whether it's coding, system design, or exploring the latest innovations, I am passionate about all aspects of my learning journey.
+                <br><br><hr><br><h1>Interest</h1><br>
+                <div class="interest">
+                    <ul>
+                        <li><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</li>
+                        <li><i class='fas fa-table-tennis'></i> PingPong</li>
+                        <li><i class="fa fa-cutlery" aria-hidden="true"></i> Cooking</li>
+                        <li><i class="fa fa-plane" aria-hidden="true"></i> Travel</li>
+                    </ul>    
+                </div>
+                <br><hr><br><br><br><br><br><br><br><br>
+                <form action="comment.html">
+                    <label for="cmmtpage"><p id="p1" style="color: #336699;">Click here to go <a id="feedback" href="comment.html">feedback</a> page</p></label>
+                </form>
+           </div>
+    </div>
 </html>
